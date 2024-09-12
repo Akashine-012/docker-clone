@@ -18,6 +18,13 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+  <distributionManagement>
+    <snapshotRepository>
+        <id>david-snapshot-repo</id>
+        <url>http://localhost:8081/repository/david-snapshot-repo</url>
+    </snapshotRepository>
+  </distributionManagement>
+
 
   <dependencies>
     <dependency>
